@@ -44,5 +44,5 @@ jobs:
           pip install schemachange
           
           echo "Step 2: Running schemachange"
-          echo "Snowflake Account Name : ${{ secrets.SF_ACCOUNT }}" 
+          echo "Snowflake Account Name :" 'jqa87915'
           schemachange -f $GITHUB_WORKSPACE/ -a $SF_ACCOUNT -u $SF_USERNAME -r $SF_ROLE -w $SF_WAREHOUSE -d $SF_DATABASE -c $SF_DATABASE.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
