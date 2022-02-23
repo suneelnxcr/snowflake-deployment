@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths:
-       - 'V1.1.1__intialobjects.sql'
+       - 'V1.1.2__updatedobjects.sql'
       #- 'migrations/**'
 
   # Allows you to run this workflow manually from the Actions tab
